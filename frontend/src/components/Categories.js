@@ -7,7 +7,7 @@ export class Categories extends Component {
     }
 
     componentDidMount() {
-      fetch('http://localhost:3001/api/category')
+      fetch('http://62.217.179.55:3001/api/category')
         .then((response) => {
           return response.json();
         })
