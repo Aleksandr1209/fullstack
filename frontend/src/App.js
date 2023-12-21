@@ -27,7 +27,7 @@
     }
 
     componentDidMount() {
-      fetch('http://localhost:3001/api/product')
+      fetch('http://62.217.179.55:3001/api/product')
         .then((response) => {
           return response.json();
         })
